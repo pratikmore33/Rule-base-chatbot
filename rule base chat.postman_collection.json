@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "cbe95921-4633-47a3-8fc2-a5b630585b66",
+		"name": "rule base chat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26301205"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/chat?text=보험가입은 어떻게 하나요?",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"chat"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "보험가입은 어떻게 하나요?"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
